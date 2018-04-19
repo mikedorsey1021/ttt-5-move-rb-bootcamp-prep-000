@@ -14,5 +14,7 @@ end
 
 def move (board, index, value = "X")
   # board = []
+  value = input_to_index
   board[index] = value
+  
 end
