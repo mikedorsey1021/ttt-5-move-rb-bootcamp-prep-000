@@ -12,6 +12,6 @@ def input_to_index (string)
   position
 end
 
-def move (array, index, character = "X")
+def move (array, index, value = "X")
   board[index] = character
 end
