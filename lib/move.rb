@@ -14,7 +14,6 @@ end
 
 def move (board, index, value = "X")
   board = []
-
   board[index] = value
   return board
 end
