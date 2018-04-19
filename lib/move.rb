@@ -12,7 +12,7 @@ def input_to_index (input)
 
 end
 
-def move (board, index, value = "X")
+def move (array, index, value = "X")
   board = []
-  board[index] = value
+  array[index] = value
 end
