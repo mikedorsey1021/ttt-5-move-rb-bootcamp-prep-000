@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index (string)
   position = (string.to_i) - 1
-  position
+  
 end
 
 def move (board, index, value = "X")
