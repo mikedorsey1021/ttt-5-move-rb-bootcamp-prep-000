@@ -13,6 +13,6 @@ def input_to_index (string)
 end
 
 def move (board, index, value = "X")
-  # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   board[index] = value
 end
